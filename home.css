@@ -1,0 +1,83 @@
+* {margin:0;padding:0}
+html, body {height:100%}
+html {min-width:920px}
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.25em;color:#4e4e4e}
+img {border:0;vertical-align:top;text-align:left}
+object {vertical-align:top;outline:none}
+ul, ol {list-style:none}
+table, table td {padding:0;border:none;border-collapse:collapse}
+input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal}
+
+
+.nome_site {float:left}
+.wrapper {width:100%;overflow:hidden}
+.container {width:920px;margin:0 auto;font-size:.875em}
+
+#cabecalho {height:430px;overflow:hidden;background:url(images/header-tail.gif) 0 0 repeat-x;min-width:920px}
+#conteudo {background:url(images/content-bg.gif) 0 0 repeat-x}
+#rodape {height:125px;background:url(images/footer-tail.gif) 0 0 repeat-x}
+#rodape {height:125px;background:url(images/footer-tail.gif) 0 0 repeat-x}
+
+
+a {color:#5db2e9;outline:none}
+a:hover{text-decoration:none}
+h1 {}
+h2 {font-size:30px;line-height:1.2em;color:#3782b2;font-weight:normal;font-weight:300;letter-spacing:-2px;margin-bottom:17px}
+h3 {font-size:16px;color:#5db2e9;margin-bottom:4px}
+h3 a {text-decoration:none}
+h3 a:hover {text-decoration:underline}
+h4 {font-size:12px;color:#5db2e9;margin-bottom:5px}
+h4 a {text-decoration:none}
+h4 a:hover {text-decoration:underline}
+h5 {font-size:30px;line-height:1.2em;color:#3782b2;font-weight:normal;font-weight:300;letter-spacing:-2px;margin-bottom:17px;padding-top:20px}
+
+
+div#cabecalho .bg {background:url(images/header-bg.jpg) no-repeat 50% 0;height:430px}
+
+div#cabecalho .cima {height:91px;overflow:hidden}
+div#cabecalho .cima .nome_site {padding:14px 0 0 33px}
+div#cabecalho .sessao {float:right;padding:41px 0 0 0}
+div#cabecalho .sessao li {float:left;background:url(images/divider.gif) no-repeat 0 0;padding:1px 28px 2px 10px}
+div#cabecalho .sessao li.first {background:none}
+div#cabecalho .sessao li.last {padding-right:10px}
+div#cabecalho .sessao li a {float:left;/*width:50px*/;height:10px;/*overflow:hidden;*/text-decoration:none}
+div#cabecalho .sessao li h4 {font-size:12px;color:#5db2e9;margin-bottom:5px}
+div#cabecalho .sessao li h4 a {text-decoration:none}
+div#cabecalho .sessao li h4 a:hover {text-decoration:underline}
+
+div#cabecalho .meio {height:60px;overflow:hidden}
+div#cabecalho .menu {padding:13px 0 0 18px}
+div#cabecalho .menu li {float:left;padding:0 20px}
+div#cabecalho .menu li a {float:left;font-size:16px;line-height:1.2em;color:#3782b2;text-decoration:none;text-transform:uppercase}
+div#cabecalho .menu li a:hover, #cabecalho .menu li a.current {color:#8B0000;text-decoration:none}
+
+div#cabecalho .baixo {padding:1px 500px 0 33px;color:#fff}
+div#cabecalho .baixo p {padding:12px 0 0 4px;margin-bottom:10px}
+
+div#conteudo .lateral {float:left;width:287px;background:url(images/sidebar-extra-bg.jpg) no-repeat 0 100% #f0f0f0}
+div#conteudo .lateral .noticias_lado {padding:42px 35px 280px 40px;background:url(images/sidebar-bg.gif) 0 0 repeat-x}
+
+dl.ultimas_noticias dt {font-size:12px;font-weight:bold;margin-bottom:5px}
+dl.ultimas_noticias dt a {color:#5db2e9;text-decoration:none}
+dl.ultimas_noticias dt a:hover {text-decoration:underline}
+dl.ultimas_noticias dd {margin-bottom:40px}
+
+div#conteudo .conteudo_principal {float:left;width:633px}
+div#conteudo .conteudo_principal .conteudo_centro {padding:42px 35px 40px 40px}
+div#conteudo .comentarios{padding:42px 35px 40px 40px;padding-top: 10px;background: url(images/content-bg.gif) top repeat-x;padding-bottom: 20px}
+div#conteudo .comentarios p {border-bottom-style:solid;border-bottom-width:3px;border-bottom-color:#c0c0c0}
+
+.lista li {width:100%;overflow:hidden;padding-bottom:50px}
+.lista li img {float:left;margin-right:9px;padding-bottom:4px;padding-top: 7px;}
+.lista li h3 {padding-top:0px}
+
+div#rodape {color:#fff;text-align:center}
+div#rodape .bg {height:125px;background:url(images/footer-bg.png) no-repeat 50% 0}
+div#rodape .texto_rodape {padding:30px 0 0 0px;line-height:30px}
+
+form#formulario {clear:right;width:100%;overflow:hidden}
+form#formulario fieldset {border:none;float:left}
+form#formulario .field {clear:both}
+form#formulario label {float:left;width:227px;padding-bottom:5px}
+form#formulario input {width:199px;padding:1px 0 1px 5px;background:none;border:1px solid #e5e5e5;color:#616161;float:left}
+form#formulario textarea {width:425px;height:410px;padding:1px 0 1px 5px;background:none;border:1px solid #e5e5e5;color:#616161;margin-bottom:12px;overflow:auto;float:left}
